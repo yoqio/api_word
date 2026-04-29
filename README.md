@@ -324,7 +324,7 @@ apidoc:
 
 - 项目主页：[GitHub Repository](https://github.com/yourusername/ai-apiword)
 - 问题反馈：[Issues](https://github.com/yourusername/ai-apiword/issues)
-- 邮箱：your-email@example.com
+- 邮箱：z1124139570@yeah.net
 
 ## 🙏 致谢
 
