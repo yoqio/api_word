@@ -1,15 +1,22 @@
 {
   "projectName" : "API Documentation",
   "version" : "1.0.0",
-  "generatedTime" : 1777470127814,
+  "generatedTime" : 1777470546276,
   "endpoints" : [ {
     "className" : "UserController",
     "classDescription" : "UserController",
-    "methodName" : "createUser",
-    "methodDescription" : "createUser",
-    "httpMethod" : "POST",
-    "path" : "/api/user",
-    "parameters" : [ ],
+    "methodName" : "getUser",
+    "methodDescription" : "getUser",
+    "httpMethod" : "GET",
+    "path" : "/api/user/{id}",
+    "parameters" : [ {
+      "name" : "id",
+      "type" : "Long",
+      "location" : "path",
+      "required" : true,
+      "description" : "id",
+      "example" : ""
+    } ],
     "responseInfo" : {
       "type" : "String",
       "description" : "响应数据",
@@ -25,7 +32,7 @@
     "methodName" : "deleteUser",
     "methodDescription" : "deleteUser",
     "httpMethod" : "DELETE",
-    "path" : "/api/user//{id}",
+    "path" : "/api/user/{id}",
     "parameters" : [ {
       "name" : "id",
       "type" : "Long",
@@ -49,7 +56,7 @@
     "methodName" : "listUsers",
     "methodDescription" : "listUsers",
     "httpMethod" : "GET",
-    "path" : "/api/user//list",
+    "path" : "/api/user/list",
     "parameters" : [ {
       "name" : "page",
       "type" : "int",
@@ -77,18 +84,11 @@
   }, {
     "className" : "UserController",
     "classDescription" : "UserController",
-    "methodName" : "getUser",
-    "methodDescription" : "getUser",
-    "httpMethod" : "GET",
-    "path" : "/api/user//{id}",
-    "parameters" : [ {
-      "name" : "id",
-      "type" : "Long",
-      "location" : "path",
-      "required" : true,
-      "description" : "id",
-      "example" : ""
-    } ],
+    "methodName" : "createUser",
+    "methodDescription" : "createUser",
+    "httpMethod" : "POST",
+    "path" : "/api/user",
+    "parameters" : [ ],
     "responseInfo" : {
       "type" : "String",
       "description" : "响应数据",
