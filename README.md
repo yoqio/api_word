@@ -322,8 +322,8 @@ apidoc:
 
 ## 📞 联系方式
 
-- 项目主页：[GitHub Repository](https://github.com/yourusername/ai-apiword)
-- 问题反馈：[Issues](https://github.com/yourusername/ai-apiword/issues)
+- 项目主页：[GitHub Repository](https://github.com/yoqio/ai-apiword)
+- 问题反馈：[Issues](https://github.com/yoqio/ai-apiword/issues)
 - 邮箱：z1124139570@yeah.net
 
 ## 🙏 致谢
