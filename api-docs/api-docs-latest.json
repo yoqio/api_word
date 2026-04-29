@@ -1,0 +1,105 @@
+{
+  "projectName" : "API Documentation",
+  "version" : "1.0.0",
+  "generatedTime" : 1777470127814,
+  "endpoints" : [ {
+    "className" : "UserController",
+    "classDescription" : "UserController",
+    "methodName" : "createUser",
+    "methodDescription" : "createUser",
+    "httpMethod" : "POST",
+    "path" : "/api/user",
+    "parameters" : [ ],
+    "responseInfo" : {
+      "type" : "String",
+      "description" : "响应数据",
+      "example" : ""
+    },
+    "errorCodes" : [ ],
+    "requestBodyExample" : null,
+    "responseBodyExample" : "",
+    "tags" : [ "UserController" ]
+  }, {
+    "className" : "UserController",
+    "classDescription" : "UserController",
+    "methodName" : "deleteUser",
+    "methodDescription" : "deleteUser",
+    "httpMethod" : "DELETE",
+    "path" : "/api/user//{id}",
+    "parameters" : [ {
+      "name" : "id",
+      "type" : "Long",
+      "location" : "path",
+      "required" : true,
+      "description" : "id",
+      "example" : ""
+    } ],
+    "responseInfo" : {
+      "type" : "String",
+      "description" : "响应数据",
+      "example" : ""
+    },
+    "errorCodes" : [ ],
+    "requestBodyExample" : null,
+    "responseBodyExample" : "",
+    "tags" : [ "UserController" ]
+  }, {
+    "className" : "UserController",
+    "classDescription" : "UserController",
+    "methodName" : "listUsers",
+    "methodDescription" : "listUsers",
+    "httpMethod" : "GET",
+    "path" : "/api/user//list",
+    "parameters" : [ {
+      "name" : "page",
+      "type" : "int",
+      "location" : "query",
+      "required" : true,
+      "description" : "page",
+      "example" : ""
+    }, {
+      "name" : "size",
+      "type" : "int",
+      "location" : "query",
+      "required" : true,
+      "description" : "size",
+      "example" : ""
+    } ],
+    "responseInfo" : {
+      "type" : "String",
+      "description" : "响应数据",
+      "example" : ""
+    },
+    "errorCodes" : [ ],
+    "requestBodyExample" : null,
+    "responseBodyExample" : "",
+    "tags" : [ "UserController" ]
+  }, {
+    "className" : "UserController",
+    "classDescription" : "UserController",
+    "methodName" : "getUser",
+    "methodDescription" : "getUser",
+    "httpMethod" : "GET",
+    "path" : "/api/user//{id}",
+    "parameters" : [ {
+      "name" : "id",
+      "type" : "Long",
+      "location" : "path",
+      "required" : true,
+      "description" : "id",
+      "example" : ""
+    } ],
+    "responseInfo" : {
+      "type" : "String",
+      "description" : "响应数据",
+      "example" : ""
+    },
+    "errorCodes" : [ ],
+    "requestBodyExample" : null,
+    "responseBodyExample" : "",
+    "tags" : [ "UserController" ]
+  } ],
+  "totalEndpoints" : 4,
+  "coveredEndpoints" : 4,
+  "coverageRate" : 100.0
+}
